@@ -44,3 +44,9 @@ When you click “Calculate grades” button you also get a reliability estimate
 
 Teachers can choose to copy the calcuated grades into the Moodle gradbook, or only some of them.  The grades can be edited by hand later.
 
+# Setting a pure judgement task
+
+It is possible to set up a "pure judgement task", where the teacher provides options from which the students make pairwise judgements without uploading their own responses.
+
+1. upload exemplars and then enable 'Allow comparison of pairs of exemplars', 
+2. close the submission date to prevent students from uploading their own responses. 
