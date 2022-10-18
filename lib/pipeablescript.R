@@ -47,5 +47,7 @@ scores$Reliability <- round(mod1$mle.rel,2)
 # Stop dumping output to stderr, we want it going to stdout
 sink()
 
+scores<-data.frame(lapply(scores, as.character), stringsAsFactors=FALSE)
+
 #output as csv
 cat(format_csv(scores))
